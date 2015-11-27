@@ -22,42 +22,22 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style type="text/css">
-    h1 {
+    h3 {
         color: #fff;
     }
     
-    h3 {
-        color: #fff;
+    .starter-template {
+        text-align: center;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
     }
     </style>
 </head>
 
 <body>
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="#top" onclick=$ ( "#menu-close").click();>Keypla AirBnB Labs</a>
-            </li>
-            <li>
-                <a href="#top" onclick=$ ( "#menu-close").click();>Home</a>
-            </li>
-            <li>
-                <a href="#about" onclick=$ ( "#menu-close").click();>About</a>
-            </li>
-            <li>
-                <a href="#services" onclick=$ ( "#menu-close").click();>Services</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick=$ ( "#menu-close").click();>Portfolio</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$ ( "#menu-close").click();>Contact</a>
-            </li>
-        </ul>
-    </nav>
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
@@ -65,14 +45,78 @@
             <h3>Property Software in 2020</h3>
             <br>
             <a href="dashboard/index.html" class="btn btn-dark btn-lg" target="blank">Dashboard Concept</a>
-            <a href="marketplace/index.html" class="btn btn-dark btn-lg" target="blank">Marketplace Concept</a>
-            <a href="marketing/index.html" class="btn btn-dark btn-lg" target="blank">Marketing Concept</a> <br>
-            <a href="communications/index.html" class="btn btn-dark btn-lg" target="blank">Communications Concept</a>
-            <a href="holiday/index.html" class="btn btn-dark btn-lg" target="blank">Package Holiday Concept</a>
+            <a href="#marketplace" class="btn btn-dark btn-lg" target="blank">Marketplace Concept</a>
+            <a href="#marketing" class="btn btn-dark btn-lg" target="blank">Marketing Concept</a>
+            <br>
+            <br>
+            <a href="#communications" class="btn btn-dark btn-lg" target="blank">Communications Concept</a>
+            <a href="#package" class="btn btn-dark btn-lg" target="blank">Package Holiday Concept</a>
         </div>
     </header>
+    <section id="marketplace" class="marketplace">
+        <div class="container">
+            <div class="starter-template">
+                <h1>AirBnB Marketplace</h1>
+                <p class="lead">All In One Services For AirBnB</p>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h4>Cleaning</h4> <img src="img/cleaning.png"></div>
+                    <div class="col-sm-4">
+                        <h4>Management</h4> <img src="img/management.png"></div>
+                    <div class="col-sm-4">
+                        <h4>Furniture</h4> <img src="img/furniture.png"></div>
+                </div>
+            </div>
+    </section>
+
+
+    <section id="marketing" class="marketing">
+        <div class="container">
+            <div class="starter-template">
+                <h1>Marketing Concept</h1>
+                <p class="lead">Social Media for AirBnB Listings</p>
+                 <div class="row">
+                    <div class="col-sm-6">
+                        <h4>Kensington - 10,000+ Impressions</h4> <img src="img/kensington.png"></div>
+                    <div class="col-sm-6">
+                        <h4>Maida Vale - 10,000+ Impressions</h4> <img src="img/lauderdale.png"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="communications" class="communications">
+        <div class="container">
+            <div class="starter-template">
+                <h1>Communications Concept</h1>
+                <p class="lead">All in One - WhatsApp, AirBnB & SpareRooms Messenger</p>
+                 <div class="row">
+                    <div class="col-sm-4">
+                        <h4>WhatsApp</h4> <img src="img/whatsapp.png"></div>
+                    <div class="col-sm-4">
+                        <h4>AirBnB</h4> <img src="img/airbnbinbox.png"></div>
+                        <div class="col-sm-4">
+                        <h4>SpareRooms</h4> <img src="img/sparerooms.png"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="package" class="package">
+        <div class="container">
+            <div class="starter-template">
+                <h1>Packaged Holidays Concept</h1>
+                <p class="lead">AirBnB + SkyScanner</p>
+                <div class="row">
+                    <div class="col-sm-6"> <img src="img/airbnb.png"></div>
+                    <div class="col-sm-6"> <img src="img/skyscanner.png"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
     <!-- About -->
-    <section id="about" class="about">
+    <!-- <section id="about" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -80,13 +124,13 @@
                     <p class="lead">We are working with 5 hosts on properties generating £300,000+ in yearly rental income! </p>
                 </div>
             </div>
-            <!-- /.row -->
+  
         </div>
-        <!-- /.container -->
-    </section>
+  
+    </section> -->
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <!-- <section id="services" class="services bg-primary">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -101,10 +145,10 @@
                             </span>
                                 <h4>
                                     <strong>AirBnB Integration</strong>
-                                </h4>
-                                <!--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </h4> -->
+    <!--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <a href="#" class="btn btn-light">Learn More</a> -->
-                            </div>
+    <!-- </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
@@ -114,10 +158,10 @@
                             </span>
                                 <h4>
                                     <strong>Location Analytics</strong>
-                                </h4>
-                                <!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </h4> -->
+    <!--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <a href="#" class="btn btn-light">Learn More</a> -->
-                            </div>
+    <!-- </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
@@ -127,10 +171,10 @@
                             </span>
                                 <h4>
                                     <strong>Pricing Analytics</strong>
-                                </h4>
-                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </h4> -->
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <a href="#" class="btn btn-light">Learn More</a> -->
-                            </div>
+    <!-- </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
@@ -140,28 +184,28 @@
                             </span>
                                 <h4>
                                     <strong>Marketing Analytics</strong>
-                                </h4>
-                                <!--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </h4> -->
+    <!--   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <a href="#" class="btn btn-light">Learn More</a> -->
-                            </div>
+    <!-- </div>
                         </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
+                    </div> -->
+    <!-- /.row (nested) -->
+    <!-- </div> -->
+    <!-- /.col-lg-10 -->
+    <!--   </div> -->
+    <!-- /.row -->
+    <!-- </div> -->
+    <!-- /.container -->
+    <!-- </section> -->
     <!-- Callout -->
-    <aside class="callout">
+    <!-- <aside class="callout">
         <div class="text-vertical-center">
             <h1>Data Analytics</h1>
         </div>
-    </aside>
+    </aside> -->
     <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+    <!-- <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -196,16 +240,16 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <!--        <a href="#" class="btn btn-dark">View More Items</a> -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
+                    </div> -->
+    <!-- /.row (nested) -->
+    <!--        <a href="#" class="btn btn-dark">View More Items</a> -->
+    <!-- </div> -->
+    <!-- /.col-lg-10 -->
+    <!-- </div> -->
+    <!-- /.row -->
+    <!-- </div> -->
+    <!-- /.container -->
+    <!-- </section> -->
     <!-- Call to Action -->
     <!--     <aside class="call-to-action bg-primary">
         <div class="container">
@@ -229,36 +273,22 @@
     </section>
  -->
     <!-- Footer -->
-    <footer>
+    <!-- <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Keypla Analytics</strong>
+                    <h4><strong>Keypla</strong>
                     </h4>
                     <p>1 Fore Street
-                        <br>London, UK EC2Y 5EJ</p>
-                    <!-- <ul class="list-unstyled">
+                        <br>London, UK EC2Y 5EJ</p> -->
+    <!-- <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
                         <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
                         </li> -->
-                    </ul>
-                    <br>
-                    <!--  <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </l -->i>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Keypla Analytics 2015</p>
-                </div>
-            </div>
-        </div>
+    <!--  </ul>
+                    <br> -->
+    <footer>
+        <p class="text-muted" align="center">Copyright &copy; Keypla 2015</p>
     </footer>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
