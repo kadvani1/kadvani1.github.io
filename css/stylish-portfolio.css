@@ -15,6 +15,20 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.white {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
+}
+
+.grey {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+}
+
 
 .text-vertical-center {
     display: table-cell;
