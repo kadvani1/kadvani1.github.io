@@ -47,15 +47,11 @@
     }
 
     function updateVideo(people) {
-        if (people.length == 1 && people[0].gender == 'male' && people[0].emotion == 'happiness')  {
-            changeVideo('top gear 2')
-        }
-
-        else if (people.length == 1 && people[0].gender == 'male') {
+        if (people.length == 1 && people[0].gender == 'male') {
             changeVideo('national')
             // $("#adtext").empty().append($("<p></p>").text('Buy The National Geographic Movie'))
         } 
-        else if (people[0].gender == 'female') {
+        else if (people.length && people[0].gender == 'female') {
             changeVideo('sex in the city')
         } else if (people.length == 2) {
             changeVideo('mission')
